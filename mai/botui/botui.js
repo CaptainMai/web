@@ -23,11 +23,11 @@
     var botui = new BotUI("fogforest");
     botui.message.bot({
         delay: 200,
-        content: "我？"
+        content: "Hi,there"
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "嗨，阿~我是张子迈，你也可以叫我麦子"
+            content: "我是子迈，你也可以叫我麦子"
         })
     }).then(function() {
         return botui.message.bot({
@@ -65,22 +65,22 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "是个没有从事本专业的机器视觉打工人，业余就搞搞游戏，搞搞学习，也喜欢出去搞搞！"
+                content: "是个没有从事本专业的打工人，兴趣相对广泛，想要尽快找到感兴趣的生活方式和职业！"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "也是因为电气工程已经太饱和了嘛"
+                content: "也是因为电气工程已经太饱和了嘛！"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前主攻图像处理~"
+                content: "目前从事机器视觉，主攻图像处理~"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢折腾，热爱折腾，目前正在花样作死的人生路上探索中"
+                content: "喜欢折腾，热爱折腾，目前正在花样作死的人生路上探索中！"
             })
         }).then(function() {
             return botui.action.button({
@@ -93,7 +93,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "一次起昵称时想到麦田里的守望者，于是我就觉得自己叫麦子也不错，和子迈刚好反过来！这个昵称目前已经有七年了，深入人心！嗯！"
+                content: "一次起昵称时想到《麦田里的守望者》，于是我就觉得自己叫麦子也不错，和子迈刚好反过来！"
+            })
+        }).then(function(res) {
+            return botui.message.bot({
+                delay: 1500,
+                content: "这个昵称目前已经有七年了，一直喜欢，并且大家都这么叫。"
             })
         }).then(function() {
             return botui.action.button({
@@ -106,7 +111,7 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "本来想要zimai.com的，但20万真买不起。。"
+                content: "本来想要zimai.com的，但20万我买不起……"
             })
         }).then(function(res) {
             return botui.message.bot({
