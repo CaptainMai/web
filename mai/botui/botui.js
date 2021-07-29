@@ -32,7 +32,7 @@
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "一个大帅比"
+            content: "来自1998，一个大帅比"
         })
     }).then(function() {
         return botui.action.button({
@@ -61,7 +61,7 @@
     var other = function() {
         botui.message.bot({
             delay: 1500,
-            content: "2020.6刚毕业"
+            content: "2020年6月毕业"
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
@@ -75,7 +75,7 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前从事机器视觉，主攻图像处理~"
+                content: "目前从事机器视觉~"
             })
         }).then(function() {
             return botui.message.bot({
@@ -93,12 +93,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "一次起昵称时想到《麦田里的守望者》，于是我就觉得自己叫麦子也不错，和子迈刚好反过来！"
+                content: "麦子充满希望 仅此而已"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "这个昵称目前已经有七年了，一直喜欢，并且大家都这么叫。"
+                content: "这个昵称目前已经有七年了，一直非常喜欢，并且大家都这么称呼我。"
             })
         }).then(function() {
             return botui.action.button({
@@ -111,12 +111,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "本来想要zimai.com的，但20万我买不起……"
+                content: "我是CaptainPrice的粉丝，同时也是CaptainMo的粉丝！"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前网站还在建设当中，如果你喜欢我的网站，那么是我的荣幸！"
+                content: "目前各类网站还在建设当中，如果你喜欢我的网站，那么是我的荣幸！"
             })
         }).then(function(res) {
             return botui.message.bot({
