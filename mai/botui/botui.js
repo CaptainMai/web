@@ -27,7 +27,7 @@
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "我是子迈，你也可以叫我麦子"
+            content: "这里是子迈，你也可以叫我麦子"
         })
     }).then(function() {
         return botui.message.bot({
@@ -61,7 +61,7 @@
     var other = function() {
         botui.message.bot({
             delay: 1500,
-            content: "2020年6月毕业"
+            content: "2020年6月本科毕业"
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
@@ -75,30 +75,35 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前从事机器视觉~"
+                content: "目前从事机器视觉，偶尔也折腾HTML/CSS/JavaScript/PHP"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢折腾，热爱折腾，目前正在花样作死的人生路上探索中！"
+                content: "喜欢拍照，希望有一天能成为摄影师"
+            })
+        }).then(function() {
+            return botui.message.bot({
+                delay: 1500,
+                content: "目前正在花样作死的人生路上探索中！"
             })
         }).then(function() {
             return botui.action.button({
                 delay: 1500,
                 action: [{
-                    text: "为什么叫 麦子 呢？ ",
+                    text: "为什么叫麦子呢？ ",
                     value: "next"
                 }]
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "麦子充满希望 仅此而已"
+                content: "麦子来自北方 麦子充满希望 麦子是麦田里的守望者 可以有10086种解释"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "这个昵称目前已经有七年了，一直非常喜欢，并且大家都这么称呼我。"
+                content: "这个昵称目前已经有八年了，一直非常喜欢，并且大家都这么称呼我。"
             })
         }).then(function() {
             return botui.action.button({
@@ -111,12 +116,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "我是CaptainPrice的粉丝，同时也是CaptainMo的粉丝！"
+                content: "我是CaptainPrice与CaptainMo的忠实粉丝"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前各类网站还在建设当中，如果你喜欢我的网站，那么是我的荣幸！"
+                content: "emmm，目前各类网站还在建设当中，如果你喜欢我的网站，那么是我的荣幸！"
             })
         }).then(function(res) {
             return botui.message.bot({
