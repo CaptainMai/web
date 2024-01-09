@@ -32,7 +32,7 @@
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "1998年，人也非常帅~"
+            content: "很高兴见到你！"
         })
     }).then(function() {
         return botui.action.button({
@@ -53,7 +53,7 @@
         if (res.value == "gg") {
             return botui.message.bot({
                 delay: 1500,
-                content: "聊不下去了！！！"
+                content: "那就不聊了！"
             })
         }
     });
@@ -61,7 +61,7 @@
     var other = function() {
         botui.message.bot({
             delay: 1500,
-            content: "2020年6月本科毕业"
+            content: "98年出生，20年毕业"
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
@@ -70,7 +70,7 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "也是因为电气工程已经太饱和了嘛！"
+                content: "不喜欢电气工程！"
             })
         }).then(function() {
             return botui.message.bot({
@@ -80,7 +80,7 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢拍照，希望有一天能成为摄影师！"
+                content: "希望有一天能成为摄影师，学会钢琴！"
             })
         }).then(function() {
             return botui.message.bot({
@@ -103,7 +103,7 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "这个昵称目前已经有八年了，一直非常喜欢，大家都这么称呼我。"
+                content: "这个昵称目前已经有十年了，一直非常喜欢，大家都这么称呼我。"
             })
         }).then(function() {
             return botui.action.button({
@@ -116,12 +116,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "我是CaptainPrice与CaptainMo的忠实粉丝，在英文昵称中，我是CaptainMai！"
+                content: "我是CaptainPrice与CaptainMo的忠实粉丝，所以我是CaptainMai！"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "emmm，目前各类网站还在建设当中，如果你喜欢它们，将是我的荣幸！"
+                content: "emmm，其实网站已经很久没更新了，但是如果你喜欢它们，将是我的荣幸！"
             })
         }).then(function(res) {
             return botui.message.bot({
