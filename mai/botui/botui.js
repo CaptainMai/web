@@ -23,7 +23,7 @@
     var botui = new BotUI("fogforest");
     botui.message.bot({
         delay: 200,
-        content: "Hi,there"
+        content: "嗨，朋友"
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
@@ -42,7 +42,7 @@
                 value: "and"
             },
             {
-                text: "可以了，再说就烦了！ ",
+                text: "可以了，再说就烦了！😂 ",
                 value: "gg"
             }]
         })
@@ -53,7 +53,7 @@
         if (res.value == "gg") {
             return botui.message.bot({
                 delay: 1500,
-                content: "那就不聊了！"
+                content: "好吧，那就先这样！😢"
             })
         }
     });
@@ -65,27 +65,27 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "是个没有从事本专业的打工人，兴趣相对广泛，想要尽快找到感兴趣的生活方式和职业！"
+                content: "不喜欢电气工程，是个没有从事本专业的打工人！"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "不喜欢电气工程！"
+                content: "兴趣相对广泛，想要尽快找到感兴趣的生活方式和职业！"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前从事机器视觉，深度学习方向，偶尔也折腾HTML/CSS/JavaScript/PHP"
+                content: "目前从事机器视觉，深度学习方向"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "希望有一天能成为摄影师，学会钢琴！"
+                content: "梦想？想拍出好照片，想学钢琴！"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "目前正在花样作死的人生路上探索中！"
+                content: "总之还在人生路上探索中！"
             })
         }).then(function() {
             return botui.action.button({
@@ -98,7 +98,7 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "麦子来自北方，麦子充满希望，麦子是麦田里的守望者，每一株麦子都是伟大的！"
+                content: "麦子是希望，麦田是自由，麦子是麦田里的守望者，每一株麦子都在努力成长🌾！"
             })
         }).then(function(res) {
             return botui.message.bot({
@@ -121,12 +121,12 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "emmm，其实网站已经很久没更新了，但是如果你喜欢它们，将是我的荣幸！"
+                content: "不过，emmm……我的网站已经很久没更新了😂，但是如果你喜欢它们，将是我的荣幸！"
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "那么，仔细看看我的博客吧？ ^_^"
+                content: "那么，仔细看看我的博客吧？😊"
             })
         });
     }
